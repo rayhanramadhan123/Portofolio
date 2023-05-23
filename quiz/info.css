@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #333333;
+}
+
+header {
+  background-color: #ad9f81;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 7%;
+}
+.list li {
+  float: right;
+  padding: 15px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #333333;
+}
+li a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.judul-content {
+  font-family: cursive;
+  font-size: 30px;
+  margin: 5px 42%;
+  color: white;
+}
+.gambar {
+  width: 550px;
+  height: 627px;
+  margin-top: 15px;
+  padding: 55px;
+  border-radius: 10pc;
+}

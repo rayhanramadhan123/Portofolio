@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 1.4rem 7%;
+}
+.kata {
+  cursor: pointer;
+  color: #dfcdc3;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  padding-right: 200px;
+}
+span {
+  color: #ff1f57;
+}
+.list li {
+  float: right;
+  padding: 15px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #dfcdc3;
+}
+li a:hover {
+  color: #ff1f57;
+  transition: all 0.3s ease-in-out;
+}
+
+/* bagian Banner */
+.banner {
+  margin-top: 1px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-image: url(poto1.jpg);
+  background-size: cover;
+  padding: 245px 105px;
+  /* opacity: 0.9; */
+}
+.banner h1 {
+  font-size: 50px;
+  color: white;
+}
+.banner h2 {
+  font-size: 45px;
+  color: #ff1f57;
+}
+
+/* Button */
+.btn {
+  padding: 12px 20px;
+  display: inline-block;
+  border-radius: 25px;
+}
+.btn-daftar {
+  margin: 20px 0px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn-daftar a {
+  color: white;
+}
+.instagram {
+  background-color: #ff1f57;
+}
+.about {
+  background-color: #cf522c;
+}
+.bi {
+  padding-right: 10px;
+  margin-right: 4px;
+  color: rgb(212, 211, 211);
+}
+
+/* Bagian About */
+.foto {
+  margin-top: 15px;
+  height: 400px;
+  padding: 55px;
+  border-radius: 5pc;
+}
+.paraf {
+  float: right;
+  margin-top: 15px;
+  padding: 215px 110px;
+  border-radius: 10pc;
+  font-size: 20px;
+  font-family: cursive;
+}
+.paraf h2 {
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Bagian Info */
+.judul-content {
+  font-family: cursive;
+  font-size: 30px;
+  margin: 5px 42%;
+  color: #1a1a1a;
+}
+.gambar {
+  width: 550px;
+  height: 600px;
+  margin-top: 15px;
+  padding: 45px;
+  border-radius: 10pc;
+}
+.motivasi {
+  float: right;
+  margin-top: 15px;
+  padding: 215px 90px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+/* Bagian Contac */
+.judul-contac {
+  font-family: "Jost", Sans-serif;
+  font-size: 30px;
+  margin: 5px 42%;
+  color: #1a1a1a;
+}
+.paraf_contac {
+  float: right;
+  margin-top: 15px;
+  padding: 55px;
+  font-size: 18px;
+  font-family: "Jost", Sans-serif;
+}
+.paraf h2 {
+  font-weight: bold;
+  padding: 10px;
+}
+.paraf h3 {
+  font-weight: bold;
+  padding: 10px;
+}
+.bi {
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 4px;
+}
+.bi-whatsapp {
+  color: black;
+}
+.bi-instagram {
+  color: black;
+}
+.bi-envelope-at {
+  color: black;
+}
+.gps {
+  margin-top: 15px;
+  height: 290px;
+  padding: 55px 50px;
+  border-radius: 4pc;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a1a1a;
+  background-size: 25px;
+  height: 50px;
+  padding: 55px;
+}
+
+.footer ul {
+  text-align: right;
+  font-size: 20px;
+}
+.footer p {
+  color: antiquewhite;
+  padding: 2px;
+  text-align: center;
+}
+
+/* Sccroll js */
+.buttom-sroll {
+  width: 55px;
+  height: 55px;
+  background-color: black;
+  font-family: "Jost", Sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-radius: 8pc;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.buttom-sroll a {
+  padding: 10px;
+}
+.buttom-sroll a:hover {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  border-radius: 8pc;
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}

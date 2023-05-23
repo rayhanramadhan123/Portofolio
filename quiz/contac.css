@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+
+header {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 7%;
+}
+.list li {
+  float: right;
+  padding: 15px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: wheat;
+}
+li a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+.paraf {
+  float: right;
+  margin-top: 15px;
+  padding: 55px;
+  font-size: 18px;
+  font-family: "Jost", Sans-serif;
+}
+.paraf h2 {
+  font-weight: bold;
+  padding: 10px;
+}
+.paraf h3 {
+  font-weight: bold;
+  padding: 10px;
+}
+.bi {
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 4px;
+}
+.gps {
+  margin-top: 15px;
+  height: 290px;
+  padding: 55px 50px;
+  border-radius: 4pc;
+}

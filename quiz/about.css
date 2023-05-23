@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faebcd;
+}
+
+/* Bagian Atas */
+header {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 7%;
+}
+.list li {
+  float: right;
+  padding: 15px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffac42;
+}
+li a:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Tengah */
+.foto {
+  margin-top: 15px;
+  height: 400px;
+  padding: 55px;
+  border-radius: 5pc;
+}
+.paraf {
+  background-color: #ffac42;
+  float: right;
+  /* height: 30px; */
+  padding: 215px 110px;
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 1pc;
+}
+.paraf h2 {
+  font-weight: bold;
+  padding: 10px;
+}
